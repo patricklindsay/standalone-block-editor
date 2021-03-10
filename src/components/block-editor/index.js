@@ -7,6 +7,7 @@ import { useSelect, useDispatch } from '@wordpress/data';
 import { useEffect, useState, useMemo } from '@wordpress/element';
 import { serialize, parse } from '@wordpress/blocks';
 import { uploadMedia } from '@wordpress/media-utils';
+import { ReusableBlocksMenuItems } from '@wordpress/reusable-blocks';
 
 import {
 	BlockEditorKeyboardShortcuts,
